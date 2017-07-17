@@ -25,6 +25,8 @@ brew cask install 1password
 brew cask install google-chrome
 brew cask install sublime-text
 brew cask install intellij-idea
+brew cask install webstorm
+brew cask install pycharm
 brew cask install slack
 brew cask install microsoft-office
 brew cask install spotify
