@@ -7,9 +7,6 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 echo "Installing node..."
 brew install node
-
-echo "Installing java..."
-brew cask install java
  
 echo "Setting up the shell..."
 mkdir ~/dev
