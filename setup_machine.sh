@@ -42,3 +42,11 @@ brew cask install font-roboto
 brew cask install font-open-sans
 brew cask install font-fontawesome
 brew cask install font-material-icons
+
+echo "Configuring diffmerge..."
+git config --global diff.tool diffmerge
+git config --global difftool.diffmerge.cmd "/usr/local/bin/diffmerge \"\$LOCAL\" \"\$REMOTE\""
+
+git config --global merge.tool diffmerge
+git config --global mergetool.diffmerge.trustExitCode true
+git config --global mergetool.diffmerge.cmd "/usr/local/bin/diffmerge --merge --result=\"\$MERGED\" \"\$LOCAL\" \"\$BASE\" \"\$REMOTE\""
