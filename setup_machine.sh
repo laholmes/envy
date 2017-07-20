@@ -30,6 +30,8 @@ brew cask install microsoft-office
 brew cask install spotify
 brew cask install sketchbook
 brew cask install sketch
+brew cask install skype
+brew cask install zoomus
 
 echo "Installing typefaces..."
 brew tap caskroom/fonts
