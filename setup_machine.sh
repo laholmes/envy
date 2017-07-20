@@ -22,6 +22,7 @@ cd envy/Bootstrapping
 echo "Installing packages..."
 brew install wget
 brew cask install 1password
+brew cask install diffmerge
 brew cask install google-chrome
 brew cask install sublime-text
 brew cask install intellij-idea
